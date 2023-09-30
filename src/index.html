@@ -9,17 +9,45 @@
   <link href="/dist/output.css" rel="stylesheet">
 </head>
 <body class="font-crimson text-zinc-900">
-<header class="flex items-center justify-between bg-zinc-800 text-zinc-50 px-4 h-14">
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-       class="w-6 h-6">
-    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"/>
-  </svg>
-  <h1 class="font-chomsky tracking-wider">The Times</h1>
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-       class="w-6 h-6">
-    <path stroke-linecap="round" stroke-linejoin="round"
-          d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"/>
-  </svg>
+
+<header>
+  <div class="flex items-center justify-between bg-zinc-800 text-zinc-50 px-4 h-14 xl:hidden">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+         class="w-6 h-6">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"/>
+    </svg>
+    <h1 class="font-chomsky tracking-wider">The Times</h1>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+         class="w-6 h-6">
+      <path stroke-linecap="round" stroke-linejoin="round"
+            d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"/>
+    </svg>
+  </div>
+  <div class="flex flex-col">
+    <div class="container mx-auto px-4">
+      <div class="flex items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+             class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+             class="w-6 h-6 mr-2">
+          <path stroke-linecap="round" stroke-linejoin="round"
+                d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"/>
+        </svg>
+        <h1 class="font-chomsky tracking-wider grow text-center text-[64px]">The Times</h1>
+        <button class="px-4 py-2 bg-zinc-900 text-zinc-200 uppercase rounded-3xl font-bold text-lg-lg tracking-wider">
+          Subscribe
+        </button>
+      </div>
+    </div>
+
+    <ul class="flex w-full items-center justify-center gap-4 font-bold text-xl border-y-2 border-zinc-900">
+      <li>
+
+      </li>
+    </ul>
+  </div>
 </header>
 <div class="container mx-auto">
   <div class="md:grid md:grid-cols-2 xl:grid-cols-12 xl:divide-x-2 xl:grid-rows-[1fr_minmax(0px, _88px)]">
